@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.c-container {
+  background-color: #dee0e3;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+.input-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.c-heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: 600;
+}
+.c-para {
+  color: #475569;
+  font-weight: 600;
+}
+.name {
+  padding: 6px;
+  width: 250px;
+  margin-bottom: 8px;
+  color: #1e293b;
+  font-weight: 600;
+}
+.text {
+  width: 250px;
+  height: 100px;
+  padding: 6px;
+  color: #1e293b;
+  font-weight: 600;
+  font-family: Roboto;
+}
+.button {
+  color: #cbd2d9;
+  background-color: #0284c7;
+  padding: 10px;
+  border: none;
+  margin-top: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.img-container {
+  text-align: right;
+}
+.img {
+  text-align: right;
+  margin-top: 40px;
+}
+.hr {
+  color: #475569;
+  margin-left: 270px;
+  margin-right: 270px;
+}
+.count-comments {
+  display: flex;
+  padding-left: 270px;
+}
+.count {
+  color: #dee0e3;
+  background-color: #0284c7;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 6px;
+}
+.comment {
+  padding: 6px;
+  color: #334155;
+  font-weight: 500;
+}
